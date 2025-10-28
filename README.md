@@ -12,7 +12,7 @@ This project is a mini remake of Twitter (X) built entirely with HTML, CSS, and 
 * ⚡ Instant Rendering — Feed updates automatically with no reloads
 
 🎥 Live Demo
-👉 View Project Live ()
+👉 View Project Live (https://twitterxremake.netlify.app/)
 
 🧱 Built With
 Technology	Purpose
