@@ -1,0 +1,63 @@
+export const tweetsData = [   
+    {
+        handle: `@RandomUser`,
+        profilePic: `https://travelmontananow.com/wp-content/uploads/2020/10/Montana-Scenic-Drives.png`,
+        likes: 27,
+        retweets: 10,
+        deleteTweet: '',
+        tweetText: `It would be cool to be a software developer!!`,
+        replies: [],
+        isLiked: false,
+        isRetweeted: false,
+        isDeleted: false,
+        uuid: '4b161eee-c0f5-4545-9c4b-8562944223ee',
+    },    
+    {
+        handle: `@Coder ✅`,
+        profilePic: `https://www.dlithe.com/wp-content/uploads/2022/08/full-stack-740x740.jpg`,
+        likes: 6500,
+        retweets: 234,
+        deleteTweet: '',
+        tweetText: `I'm currently on my way to be a software developer👨🏽‍💻`,
+        replies: [
+                  {
+                handle: `@HTMLUser ✅`,
+                profilePic: `https://img.freepik.com/free-psd/3d-rendering-interface-icon_23-2151553996.jpg?semt=ais_hybrid&w=740&q=80`,
+                tweetText: `I'm giving structure to the website👋`,
+            },
+                  {
+                handle: `@JavaScriptUser ✅`,
+                profilePic: `data:image/png;base64,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`,
+                tweetText: `I'm making the website interactive❗️`,
+            },
+        ],
+        isLiked: false,
+        isRetweeted: false,
+        isDeleted: false,
+        uuid: '3c23454ee-c0f5-9g9g-9c4b-77835tgs2',
+    },
+        {
+        handle: `@IDE`,
+        profilePic: `https://powergatesoftware.com/wp-content/uploads/2021/07/cloud-based-development-740x740.jpg`,
+        likes: 10,
+        retweets: 3,
+        deleteTweet: '',
+        tweetText: `Which Integrated Development Environment should I use? `,
+        replies: [
+            {
+                handle: `@VScode 🔋`,
+                profilePic: `https://img.freepik.com/vetores-premium/icone-de-codigo-do-visual-studio_1157034-489.jpg?semt=ais_hybrid&w=740&q=80`,
+                tweetText: `Well VScode is the most used for a reason...`,
+            },
+            {
+                handle: `@PyCharm 📟`,
+                profilePic: `https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/2048px-PyCharm_Icon.svg.png`,
+                tweetText: `We come prepared with everything you need as soon as you install!`,
+            },
+        ],
+        isLiked: false,
+        isRetweeted: false,
+        isDeleted: false,
+        uuid: '8hy671sff-c0f5-4545-9c4b-1237gyys45',
+    },     
+]
